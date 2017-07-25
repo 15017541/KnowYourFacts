@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.random:
                 Random randomno = new Random();
 
-                vPager.setCurrentItem(randomno.nextInt(2),true);
+                vPager.setCurrentItem(randomno.nextInt(3),true);
                 return true;
             case R.id.next:
                 int max = vPager.getChildCount();
@@ -99,5 +99,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    @Override
+    protected void onPause() {
+        super.onPause();
+        
+    }
 }

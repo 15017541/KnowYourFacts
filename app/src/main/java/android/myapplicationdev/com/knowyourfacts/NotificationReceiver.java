@@ -21,8 +21,8 @@ public class NotificationReceiver extends BroadcastReceiver {
 
         // build notification
         Notification.Builder builder = new Notification.Builder(context);
-        builder.setContentTitle("Amazing Offer!");
-        builder.setContentText("Subject");
+        builder.setContentTitle("Read Later");
+        builder.setContentText("Fun facts for you!");
         builder.setSmallIcon(android.R.drawable.ic_dialog_info);
         builder.setContentIntent(pIntent);
         builder.setAutoCancel(true);
