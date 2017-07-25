@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Know Your Facts</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="frag1">Camels have three eyelids to protect themselves from blowing sand.  \n \n
+        The placement of a donkey\'s eyes in its\' heads enables it to see all four feet at all times! \n \n
+    The six official languages of the United Nations are: English, French, Arabic, Chinese, Russian and Spanish.
+        \n \n Earth is the only planet not named after a god.</string>
 </resources>
