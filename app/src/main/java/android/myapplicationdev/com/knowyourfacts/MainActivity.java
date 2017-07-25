@@ -14,6 +14,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnRead;
 
     int reqCode = 12345;
+    ImageView iv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         vPager = (ViewPager) findViewById(R.id.viewpager1);
         btnRead = (Button) findViewById(R.id.btnRead);
+        iv = (ImageView) findViewById(R.id.iv);
 
         FragmentManager fm = getSupportFragmentManager();
 
