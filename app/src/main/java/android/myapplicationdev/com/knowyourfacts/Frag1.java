@@ -31,7 +31,7 @@ public class Frag1 extends Fragment {
         final View view = inflater.inflate(R.layout.fragment_1, container, false);
 
         Button btnChange = (Button)view.findViewById(R.id.btnChange);
-        
+
         btnChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
